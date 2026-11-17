@@ -1,4 +1,5 @@
 # Link do Figma
+https://www.figma.com/design/278Vj83CcRSjn0120SSEYw/TRABALHO-FINAL-GILBERTO-GORILLAZ?node-id=0-1&t=oxSyDS0GMRiCBRLY-1
 
 
 # Paletas de cores
