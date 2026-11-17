@@ -1,0 +1,20 @@
+.sobre
+    {
+        background-color: #EC5D74;
+        color: #F0EBE3; 
+        padding: 100px;
+        display: flex;
+    }
+
+    #capa-de-revita-sobre
+        {
+            width: 490px;
+            height: auto;
+            display: block;
+
+        }
+
+    #sobre-gorillaz-home-titul
+        {
+            color: #211D23 ;
+        }
