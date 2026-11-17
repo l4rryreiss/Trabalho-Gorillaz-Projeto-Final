@@ -46,7 +46,7 @@
  <br>
 
  ## Fases::
-*lembrar de mudar
+* lembrar de mudar
  <br>
 
 ## Devs::
