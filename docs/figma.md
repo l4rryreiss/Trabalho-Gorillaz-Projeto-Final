@@ -39,7 +39,6 @@
    
 ## Integrantes::
 * lembrar de mudar
-
  <br>
  
 ## Discografia::
@@ -47,7 +46,7 @@
  <br>
 
  ## Fases::
-* Utilizamos scroll /  slide na página de discografia salvar espaço e para deixar o site mais dinâmico.
+*lembrar de mudar
  <br>
 
 ## Devs::
