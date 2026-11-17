@@ -24,7 +24,8 @@ https://www.figma.com/design/278Vj83CcRSjn0120SSEYw/TRABALHO-FINAL-GILBERTO-GORI
 * Somente nas páginas dos integrantes há uma cor principal, cada cor foi associada a um integrante.
 
 ## Geral::
-* Escolhemos priorizar slide ? scroll sobre sessões de card por questões de espao e para deixar o site mais dinâmico.
+* Escolhemos priorizar slide / scroll sobre sessões de card por questões de espao e para deixar o site mais dinâmico.
+* Colocamos um botão no header na versão mobile por questões de espaço. 
     <br>
  
 
@@ -39,7 +40,9 @@ https://www.figma.com/design/278Vj83CcRSjn0120SSEYw/TRABALHO-FINAL-GILBERTO-GORI
  <br>
    
 ## Integrantes::
-* lembrar de mudar
+* Colocamos cada página de integrante tendo uma cor principal e uma cor complementar, para que cada uma das cores principais fosse a associada a um membro da banda, de modo que a paleta da página e do personagem fiquem o mais harmoniosas possível.
+* Na section de "por trás da história" preferimos, na versão mobile, ocupar a página inteira com as informações do que fazer um card, pois ficava mais harmonioso. Como não teve a div com borda na versão mobile, colocamos a última imagem da section da versão pc sendo um banner. 
+*  Na section "ao longo das fases" fizemos a versão mobile sendo slide / scroll por questões de espaço, porém, na versão para pc, achamos que os cards ornaram mais. 
  <br>
  
 ## Discografia::
@@ -47,11 +50,11 @@ https://www.figma.com/design/278Vj83CcRSjn0120SSEYw/TRABALHO-FINAL-GILBERTO-GORI
  <br>
 
  ## Fases::
-* lembrar de mudar
+* Colocamos o texto introdutório e os botões de atalho em cima da hero, pois a imagem é escura e ficava esteticamente agradável.
  <br>
 
 ## Devs::
-* lembrar de mudar
+* Colocamos nossas músicas favoritas com a opção de incorporar faixa do spotify, pois faz sentido com a temática do site. 
  <br>
 
 
