@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gorillaz Home </title>
     <link rel="stylesheet" href="site/css/estilo.css">
-    <link rel="stylesheet" href="site/css/carrossel.css">
     <link rel="stylesheet" href="site/css/home.css">
     <script src="site/js/main.js" defer></script>
     <link  rel="icon" href="site/assets/img/favicon.png">
@@ -40,52 +39,62 @@
 
 
 
-     <section class="hero-home"> 
+       <section class="hero-home"> 
          <img class="banner" src="site/assets/img/home/banner-da-hero.jpg" alt="Banner da banda na fase 2 para a hero."> 
      </section>
 
     <section class="sobre">
-        <div class="coluna 1">
+        <div class="coluna-1">
             <img id="capa-de-revita-sobre" src="site/assets/img/home/imagem-parte-sobre-a-banda.webp" alt="imagem da parte sobre - capa de revista da 2° fase: Slowboat to Hades">
         </div>
 
-        <div class="coluna 2">
-            <h1 class="titulo" id="sobre-gorillaz-home-titulo">Sobre Gorillaz</h1>
-
-            <p>Gorillaz é uma banda virtual britânica criada por Damon Albarn e Jamie Hewlett em 1998. Misturando música, animação e uma identidade visual única, o grupo conquistou
-            o mundo com seus personagens fictícios, videoclipes marcantes e uma sonoridade que passeia por diversos gêneros musicais. Muito além de uma banda, Gorillaz é um universo próprio.</p>  
-            <a href="sobre.html" class="botao-de-atalho-body"> <button>Saiba Mais</button> </a>  
+      <div class="coluna-2">
+            <h1 class="titulo" id="sobre-gorillaz-home-titulo">Sobre Gorillaz</h1> 
+            <div id="sobre-gorillaz-home-borda">
+              <div id="sobre-gorillaz-home-texto">
+                <p>Gorillaz é uma banda virtual britânica criada por Damon Albarn e Jamie Hewlett em 1998. Misturando música, animação e uma identidade visual única, o grupo conquistou
+                o mundo com seus personagens fictícios, videoclipes marcantes e uma sonoridade que passeia por diversos gêneros musicais. Muito além de uma banda, Gorillaz é um universo próprio.</p>
+              </div>  
+            </div>
+                  <a href="sobre.html"> 
+                    <button class="botao-de-atalho-body" id="botao-de-atalho-1">
+                      <p class="botao-de-atalho-texto">Saiba Mais</p>
+                    </button> 
+                  </a> 
+      </div> 
 
     </section>
 
 
 
-    <section class="discografia">
-        <h1 class="titulos">Discografia</h1>
+      <section class="discografia">
+          <h1 class="discografia-gorillaz-home-titulo">Discografia</h1>
 
-        <section class="carrossel">
-            <button class="seta esquerda" id="anterior">&#10094;</button>
-            <div class="palco">
-                <img src="site/assets/img/discografia/capa de albuns/cracker island.webp" class="album">
-                <img src="site/assets/img/discografia/capa de albuns/Gorillaz2001.webp" class="album">
-                <img src="site/assets/img/discografia/capa de albuns/Gorillazdemondays.webp" class="album">
-                <img src="site/assets/img/discografia/capa de albuns/humanz.webp" class="album">
-                <img src="site/assets/img/discografia/capa de albuns/plastic beach.webp" class="album">
-                <img src="site/assets/img/discografia/capa de albuns/song machine.webp" class="album">
-                <img src="site/assets/img/discografia/capa de albuns/the fall.webp" class="album">
-                <img src="site/assets/img/discografia/capa de albuns/the mountain.webp" class="album">
-                <img src="site/assets/img/discografia/capa de albuns/the now now.webp" class="album">
-            </div>
+          <section class="carrossel">
+              <button class="seta" id="anterior">&#9664;</button>
+              <div class="palco">
+                  <img src="site/assets/img/discografia/capa de albuns/cracker island.webp" class="album">
+                  <img src="site/assets/img/discografia/capa de albuns/Gorillaz2001.webp" class="album">
+                  <img src="site/assets/img/discografia/capa de albuns/Gorillazdemondays.webp" class="album">
+                  <img src="site/assets/img/discografia/capa de albuns/humanz.webp" class="album">
+                  <img src="site/assets/img/discografia/capa de albuns/plastic beach.webp" class="album">
+                  <img src="site/assets/img/discografia/capa de albuns/song machine.webp" class="album">
+                  <img src="site/assets/img/discografia/capa de albuns/the fall.webp" class="album">
+                  <img src="site/assets/img/discografia/capa de albuns/the mountain.webp" class="album">
+                  <img src="site/assets/img/discografia/capa de albuns/the now now.webp" class="album">
+              </div>
 
-            <button class="seta direita" id="proximo">&#10095;</button>
-            <h2 id="titulo">Álbum 1</h2>
-        </section>
-        
-        <nav class="botão">
-         <a href="discografia.html" class="botao-de-atalho-body">
-        <button>Saiba Mais</button>
-        </a>  
-         </nav>
+              <button class="seta" id="proximo">&#9654;</button>
+              <div >
+              <h2 id="titulo">Álbum 1</h2>
+              </div>
+
+               <a href="discografia.html"> 
+                    <button class="botao-de-atalho-body" id="botao-de-atalho-2">
+                      <p class="botao-de-atalho-texto">Saiba Mais</p>
+                    </button> 
+                  </a> 
+          </section>
 
      </div>
 
@@ -96,7 +105,7 @@
 
       <section class="integrantes">
 
-        <h1 class="titulo" id="integrantes-titulo">Integrantes</h1>
+        <h1 class="titulo" id="integrantes-gorillaz-home-titulo">Integrantes</h1>
 
         <nav class="banners-pc"> <!--  essa parte é do pc -->
              <nav class="murdoc-home-pc">
@@ -154,18 +163,24 @@
 
      <section class="historia">
 
-        <img src="site/assets/img/home/imagem-parte-que-vai-para-a-pagina-fases.webp" alt="imagem da parte sobre - capa de revista da 2° fase">
+      <div class="coluna-1">
+        <img id="img-historia" src="site/assets/img/home/imagem-parte-que-vai-para-a-pagina-fases.webp" alt="imagem da parte sobre - capa de revista da 2° fase">
+      </div>
 
-        <h1 class="titulo" id="conheca-a-historia">Conheça a história:</h1>
-
-        <p>Gorillaz é muito mais do que uma banda virtual: ao longo dos anos, construiu uma extensa história,personagens e acontecimentos inesperados. Quer conhecer tudo o que existe por trás das músicas? Então venha explorar essa história!</p>
-       
-        <nav class="botão">
-         <a href="" class="botao-de-atalho-body">
-               <button>Saiba Mais</button>
-        </a>  
-         </nav>
-
+      <div class="coluna-2">
+             <h1 class="titulo" id="conheca-a-historia-gorillaz-home-titulo">A   História</h1>
+            <div id="historia-gorillaz-home-borda">
+              <div id="historia-gorillaz-home-texto">
+                  <p>Gorillaz é muito mais do que uma banda virtual: ao longo dos anos, construiu uma extensa história,personagens e acontecimentos inesperados. Quer conhecer tudo o que existe por trás das músicas? Então venha explorar essa história!</p>
+              </div>  
+            </div>
+          <a href="fases.html"> 
+                        <button class="botao-de-atalho-body" id="botao-de-atalho-3">
+                          <p class="botao-de-atalho-texto">Saiba Mais</p>
+                        </button> 
+                      </a> 
+      </div>
+                  
     </section>
 
 
