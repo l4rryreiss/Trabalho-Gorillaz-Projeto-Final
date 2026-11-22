@@ -1,12 +1,5 @@
-@font-face {
-    font-family: 'Gorillaz';
-    src: url('../assets/fonte/gorillaz_1.ttf') format('truetype');
-}
-/*h1 {
-    font-family: 'Gorillaz', truetype;
-} (você coloca isso na section que vai ter a fonte*/ 
 
-
+/* Sobre */
 .sobre
     {
         background-color: #EC5D74;
@@ -14,6 +7,7 @@
         padding: 100px;
         display: flex;
     }
+
 
     #capa-de-revita-sobre
         {
@@ -23,7 +17,231 @@
 
         }
 
-    #sobre-gorillaz-home-titul
+    #sobre-gorillaz-home-titulo
         {
-            color: #211D23 ;
+            text-align: center;
+            color: #35452D;
+            -webkit-text-stroke: 5px #211D23;
+            margin-top: -50px;
+            margin-left: 10px;
         }
+
+        #sobre-gorillaz-home-borda
+            {
+                border: 10px solid #FD651B;
+                border-radius: 24px;
+                max-width: 90%;
+                margin: 0 0 0 50px;
+            }
+
+            #sobre-gorillaz-home-texto
+                {
+                    font-size: 24px;
+                    text-align: justify;
+                    margin: 20px;
+                }
+
+    .botao-de-atalho-body
+        {
+           font-size: 36px;
+           align-items: center;
+           text-transform: lowercase;
+           border-radius: 24px;
+        }
+            .botao-de-atalho-texto
+                {
+                    margin: 20px;
+                    color: #F0EBE3;
+                }
+
+            #botao-de-atalho-1
+                {
+                    background-color: #FD651B;
+                    border: 5px solid  #35452D;
+                    margin: 40px 0 0 240px;
+                }
+
+            #botao-de-atalho-2
+                {
+                    background-color: #FD651B;
+                    border: 5px solid  #35452D;
+                    align-items: center;
+                }
+
+/* Discografia */
+                .discografia {
+                    min-height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 100px;
+                }
+
+                .discografia-gorillaz-home-titulo
+                    {
+                        text-align: center;
+                            color: #FD651B;
+                            -webkit-text-stroke: 5px #35452D;
+                    }
+
+                .carrossel {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    position: relative;
+                }
+
+                .palco {
+                    width: 600px;
+                    height: 300px;
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+
+                .album {
+                    width: 250px;
+                    height: 250px;
+                    object-fit: cover;
+                    position: absolute;
+                    opacity: 0;
+                    transition: all 0.5s ease;
+                }
+
+
+                .album.centro {
+                    width: 250px;
+                    height: 250px;
+                    opacity: 1;
+                    z-index: 3;
+                    left: 50%;
+                    margin-left: -125px; 
+                }
+
+
+                .album.esquerda {
+                    width: 200px;
+                    height: 200px;
+                    opacity: 1;
+                    z-index: 2;
+                    left: 50%;
+                    margin-left: -330px;
+                }
+
+
+                .album.direita {
+                    width: 200px;
+                    height: 200px;
+                    opacity: 1;
+                    z-index: 2;
+                    left: 50%;
+                    margin-left: 130px;
+                }
+
+
+                .seta {
+                    background: none;
+                    border: none;
+                    color: #704c68;
+                    font-size: 45px;
+                    cursor: pointer;
+                    z-index: 5;
+                    padding: 20px;
+                    position: absolute;
+                    top: 110px;
+                }
+
+                #anterior {
+                    left: 15%;
+                }
+
+                #proximo {
+                    right: 15%;
+                }
+
+                #titulo {
+                    text-align: center;
+                    margin-bottom: 20px;
+                    color: #35452D;
+                }
+
+                .botao-de-atalho-body {
+                    margin-top: 15px;
+                }
+
+
+/* Integrantes */
+
+.integrantes
+    {
+        background-color: #211D23;
+        padding: 100px;
+    }
+
+    #integrantes-gorillaz-home-titulo
+        {
+            text-align: center;
+            color: #F0EBE3;
+            -webkit-text-stroke: 5px #EC5D74;
+        }
+
+/* Historia */
+
+.historia
+    {
+        background-color: #FD651B;
+        padding: 100px;
+        display: flex;
+    }
+
+    #conheca-a-historia-gorillaz-home-titulo
+    {
+        color: #211D23;
+        -webkit-text-stroke: 5px #35452D;
+         text-align: center;
+            margin-top: -50px;
+            margin-left: 10px;
+        
+    }
+
+    #img-historia
+        {
+            width: 490px;
+            height: auto;
+            display: block;
+
+        }
+
+
+     #historia-gorillaz-home-borda
+            {
+                border: 10px solid #714B66;
+                background-color: #35452D;
+                border-radius: 24px;
+                max-width: 90%;
+                margin: 0 0 0 50px;
+            }
+
+            #historia-gorillaz-home-texto
+                {
+                    font-size: 24px;
+                    text-align: justify;
+                    margin: 20px;
+                    color: #F0EBE3;
+                    -webkit-text-stroke: 0.1px #FD651B;
+                }
+
+
+                 #botao-de-atalho-3
+                {
+                    background-color: #EC5D74;
+                    border: 5px solid  #35452D;
+                    margin: 40px 0 0 240px;
+                }
+
+    
