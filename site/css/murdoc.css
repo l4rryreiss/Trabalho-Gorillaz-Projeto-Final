@@ -1,0 +1,81 @@
+
+body
+    {
+        background-color: #714B66;
+    }
+
+#titulo-hero-integrante-pc-murdoc
+    {
+        color: #714B66;
+        -webkit-text-stroke: 1px #35452D;
+    }
+
+     #borda-murdoc-pc
+            {
+                border: 10px solid #714B66;
+                border-radius: 24px;
+                margin-top: 60px;
+                margin-left: 50px ;
+            }
+
+    #murdoc-titulo-lore
+        {
+            color: #211D23;
+            -webkit-text-stroke: 1px #35452D;
+            text-align: center;
+        }
+
+    #murdoc-corpo-lore
+        {
+             border: 10px solid #35452D;
+             font-size: 24px;
+        }
+
+    .divisao-murdoc
+        {
+            display: flex;
+            gap: 20px;
+        }
+
+    #murdoc-texto-lore
+        {
+           margin: 30px;
+        }
+          
+    #murdoc-pre-gorillaz
+        {
+            margin-left: 145px;
+            width: 272px;
+            height: auto;
+            display: block;
+        }
+
+         #Sketch-de-Russel
+                {
+                    margin-left: 236px;
+                    width: 250px;
+                    height: auto;
+                    display: block;
+                }
+
+    .img-borda
+        {
+            border: 5px solid #35452D;
+        }
+
+        .banner-murdoc-historia 
+            {
+                width: 100%;
+                height: auto;
+                display: block; 
+            }
+
+        #espasamento
+            {
+                margin-top: 10px;
+            }
+
+        #centro
+            {
+                text-align: center;
+            }
