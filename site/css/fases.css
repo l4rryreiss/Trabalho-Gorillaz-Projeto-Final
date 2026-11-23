@@ -2,18 +2,21 @@
 .tctd ,.etpb ,.nmua ,.tsc ,.sbth ,.wash ,.wywe , .tm{
     background-color: #35452D   ;
     color: #F0EBE3;
-    padding: 100px;
+    padding: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 25px;
+    gap: 55px;
     width: 100%;
-    box-sizing: border-box;
-}
+    }
 .sbth ,.wash ,.wywe , .tm{
     background-color: #211D23   ;
 }
-/* COLUNA 1 */
 
+.expecifico-org{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
 .coluna1-corpo-fases {
     display: flex;  
     flex-direction: column;
@@ -24,9 +27,8 @@
     font-family: 'Gorillaz', truetype;
     color: #EC5D74;
     font-size: 64px;
-    margin: 0;
 }
-
+    
 .nome-da-fase {
     font-family: 'Gorillaz', truetype;
     font-size: 96px;
@@ -34,19 +36,18 @@
 }
 
 .foto-fase {
-    margin-left: 140px;
+    margin-left: 10px;
     width: 655px;
     height: 475px;
     object-fit: cover;
     border: 10px solid #EC5D74;
     border-radius: 25px;
-    box-sizing: border-box;
 }
 
 .album-e-nome-fases {
     display: flex;
     align-items: center;
-    gap: 15px;
+        gap: 15px;
 }
 
 .albumcorpo-fases-img {
@@ -58,10 +59,8 @@
 .nome-do-album-fases {
     font-family: 'Gorillaz', truetype;
     font-size: 64px;
-    margin: 0;
 }
 
-/* COLUNA 2 */
 
 .coluna2-corpo-fases {
     padding-top: 170px;
@@ -77,11 +76,11 @@
 }
 
 .p-corpo-fases {
+    min-height: 200px;
     width: 80%;
     font-size: 24px;
     line-height: 1.5;
     text-align: justify;
-    margin: 0;
 }
 .p-fases-interantes{
     font-family: 'Gorillaz', truetype;
@@ -90,15 +89,86 @@
     text-align: center;
     margin-right: 410px;
 }
-/* RESPONSIVIDADE */
 
-@media (max-width: 700px) {
-    .tctd {
-        grid-template-columns: 1fr;
-        padding: 20px;
-    }
 
-    .foto-fase {
-        height: auto;
-    }
+
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 20px;
+    color: #F0EBE3;
+    background-image:
+      linear-gradient(rgba(10, 14, 13, 0.55), rgba(10, 14, 13, 0.72)),
+      url("../assets/img/fases/hero.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.hero-conteudo {
+    width: 100%;
+    max-width: 1180px;
+}
+
+#hero-fases {
+    font-family: 'Gorillaz', truetype;
+    font-size: 140px;
+    color: #714B66; 
+    margin-bottom: 24px;
+}
+
+.hero-conteudo p {
+    font-size: 30px;
+    line-height: 1.45;
+    margin-bottom: 18px;
+}
+
+.grade-fases {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px 24px;
+    margin-top: 32px;
+}
+
+.botao-fase {
+    font-family: 'Gorillaz', truetype;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    border: 5px solid #211D23;
+    text-decoration: none;
+    color: #F0EBE3;
+    font-size: 64px;
+            transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.botao-fase:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.1);
+}
+
+.botao-fase:active {
+    transform: translateY(0);
+}
+
+.botao-fase.roxo {
+    background-color: #714B66;
+}
+
+.botao-fase.rosa {
+    background-color: #EC5D74;
+}
+
+.botao-fase.laranja {
+    background-color: #FD651B;
+}
+
+.botao-fase.verde {
+  background-color: #35452D;
+}
+

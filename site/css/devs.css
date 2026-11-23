@@ -1,0 +1,149 @@
+.hero-devs {
+    background-color: #714B66; 
+    min-height: 75vh;
+    padding: 64px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo-devs {
+    font-family: 'Gorillaz', truetype;
+    color: #F0EBE3;
+    font-size: 128px;
+     text-align: center;
+    margin-bottom: 36px;
+    -webkit-text-stroke: 10px #35452D;
+    paint-order: stroke fill;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.35);
+}
+
+.caixa-texto-devs {
+    width: 100%;
+    max-width: 780px;
+    background-color: #211D23; 
+    border: 10px solid #EC5D74; 
+    padding: 44px 48px;
+}
+
+.caixa-texto-devs p {
+    color: #F0EBE3;
+    font-size: 30px;
+    line-height: 1.55;
+    text-align: left;
+    margin: 0;
+}
+
+.corpo-devs {
+  background-color: #211D23; 
+  padding: 64px 20px;
+}
+
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+}
+
+.card-dev {
+  width: 100%;
+  max-width: 980px;
+  background-color: #35452D; 
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.coluna-midia {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.foto-dev {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background-color: #F0EBE3; 
+  display: block;
+}
+
+.musica-spotify iframe {
+  border-radius: 12px;
+  display: block;
+}
+
+.coluna-info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.nome-dev {
+    font-family: 'Gorillaz', truetype;
+  color: #211D23;
+  font-size: 100px;
+  line-height: 1.05;
+  -webkit-text-stroke: 10px #FD651B; 
+}
+
+.texto-card-contribuicao {
+  background-color: #211D23;
+  border: 6px solid #FD651B; 
+  padding: 24px 26px;
+}
+
+.contribuicao {
+  color: #F0EBE3;
+  font-size: 24px;
+  line-height: 1.35;
+}
+
+.contribuicao strong {
+  font-weight: 700;
+  color: #F0EBE3;
+}
+#gabriel-card {
+  background-color: #35452D; 
+}
+
+#gabriel-card .nome-dev {
+  -webkit-text-stroke: 6px #FD651B; 
+  paint-order: stroke fill;
+}
+
+#gabriel-card .texto-card-contribuicao {
+  border-color: #FD651B; 
+}
+
+#thauany-card {
+  background-color: #EC5D74; 
+}
+
+#thauany-card .nome-dev {
+  -webkit-text-stroke: 6px #714B66; 
+  paint-order: stroke fill;
+}
+
+#thauany-card .texto-card-contribuicao {
+  border-color: #714B66; 
+}
+
+#larry-card {
+  background-color: #FD651B; 
+}
+
+#larry-card .nome-dev {
+  -webkit-text-stroke: 6px #EC5D74; 
+  paint-order: stroke fill;
+}
+
+#larry-card .texto-card-contribuicao {
+  border-color: #EC5D74;
+}

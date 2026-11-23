@@ -87,20 +87,12 @@
     display: block;
     background-color: #211D23;
     padding: 12px 20px;
-    border-bottom: 1px solid #211D23;
-    font-size: 1rem;
+    font-size: 24px;
     text-align: center;
   }
 
-  .dropdown-conteudo a:first-child {
-    border-top: 2px solid #211D23;
-  }
-
-  .dropdown-conteudo a:last-child {
-    border-bottom: none;
-    border-radius: 0 0 6px 6px;
-  }
-
+  
+  
   .dropdown-conteudo a:hover {
     background-color: #211D23;
     opacity: 1 !important;
@@ -115,25 +107,22 @@
     margin-left: auto;
   }
 
-  .menu-button {
-    background: none;
-    border: none;
-    color: #F0EBE3;
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
+  
 
   .banner {
     width: 100%;
     height: auto;
     display: block;
   }
-
+.integrantes-footer{
+  width: 100%;
+  display: flex;
+    gap: 20px;
+}
     .footer {
   background-color: #211D23; 
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   padding: 60px 40px;
 }
 
@@ -146,13 +135,25 @@
 }
 
 .coluna-footer h3 {
+  font-family: 'Gorillaz', truetype;
   font-size: 48px;
   font-weight: normal;
   margin-bottom: 10px;
 
   color: #F0EBE3;
 }
+.int-reais-footer {
+  font-size: 24px;
 
+  color: #F0EBE3;
+}
+.integrantes-footer-reais {
+  display: flex;
+  font-size: 18px;
+  gap: 12px; 
+  min-width: 180px;
+  margin-bottom: 20px;
+}
 .link-footer {
   color: #F0EBE3;
   text-decoration: none;
@@ -165,103 +166,7 @@
   text-decoration: underline;
 }
 
-.dropdown-atalho-nome {
-  color: #F0EBE3;
-  text-decoration: none;
-  font-size: 24px;
-}
 
-.dropdown-atalho-nome:hover {
-  color: #F0EBE3;
-}
 
-.dropdown-integrantes,
-.dropdown-integrantes-reais {
-  position: relative;
-}
 
-.dropdown-conteudo {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 65%; 
-  margin-left: 10px; 
-  background-color: #242128; 
-  min-width: 160px;
-  flex-direction: column;
-  gap: 8px;
-  padding: 12px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-  border-radius: 6px;
-  z-index: 10;
-}
-
-.dropdown-integrantes:hover .dropdown-conteudo,
-.dropdown-integrantes-reais:hover .dropdown-conteudo {
-  display: flex;
-}
   
-
-  @media (max-width: 850px) {
-    header {
-      height: 70px;
-      padding: 0 20px;
-      position: relative;
-    }
-
-    header > a img {
-      height: 44px;
-    }
-
-    #logo-escrita-header {
-      height: 34px;
-      margin-left: 16px;
-    }
-
-    .botao-atalhos--mobile {
-      display: block;
-    }
-
-    #atalhos-header {
-      display: none;
-      position: absolute;
-      top: 70px;
-      left: 0;
-      width: 100%;
-      background-color: #211D23;
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 20px;
-      gap: 16px;
-      border-top: 1px solid #211D23   ;
-      z-index: 99;
-    }
-
-    #atalhos-header.ativo {
-      display: flex;
-    }
-
-    .dropdown-integrantes {
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
-    }
-
-    .dropdown-conteudo {
-      position: static;
-      transform: none;
-      padding-top: 10px;
-      padding-left: 16px;
-      width: 100%;
-    }
-
-    .dropdown-conteudo a {
-      text-align: left;
-      border: none;
-      padding: 8px 0;
-    }
-
-    .dropdown-conteudo a:first-child {
-      border-top: none;
-    }
-  }

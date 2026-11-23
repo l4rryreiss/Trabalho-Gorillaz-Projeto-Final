@@ -11,7 +11,7 @@
     .hero-integrante-imagem
         {
             width: 490px;
-            margin-left: -330px;
+            margin-left: 30px;
             height: auto;
             display: block;
         }
@@ -58,3 +58,162 @@
         {
             text-decoration: underline;
         }
+
+
+
+.fundo-curiosidades-relacionamento
+ {
+    background-color: #211D23;
+}
+
+.curiosidades,
+.relacionamentos,
+.fases {
+    
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+
+
+.ul-integrantes {
+    
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ul-integrantes ul {
+    list-style: none;
+}
+
+.ul-integrantes li {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    color: #F0EBE3;
+}
+
+
+
+
+.banner-visualizer-final {
+    width: 100%;
+    height: 767px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;    
+}
+
+.banner-exclusivo-mobile-integrantes {
+    display: none;
+}
+
+.corpo-relacionamentos {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    max-width: 900px;
+    margin: 20px auto 0;
+}
+
+.chart-relacionamento {
+    position: relative;
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    padding: 35px 25px 25px;
+    border-width: 6px;
+    border-style: solid;
+}
+
+.titulo-chart-de-relacionamento-integrantes {
+    position: absolute;
+    top: -104px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Gorillaz', truetype;
+    font-size: 100px;
+    color: #F0EBE3;
+    -webkit-text-stroke: 10px #211D23;
+    paint-order: stroke fill;
+    white-space: nowrap;
+}
+
+.icons-chart-relacionamento {
+    display: contents;
+}
+
+.icons-chart-relacionamento img:first-child {
+    width: 110px;
+    height: 110px;
+}
+
+.icons-chart-relacionamento img:last-child {
+    grid-column: 3;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.chart-relacionamento p {
+    grid-column: 2;
+    font-size: 24px;
+    text-align: center;
+    color: #F0EBE3;
+}
+
+
+
+.fases {
+    background-color: #F0EBE3;
+    color: #211D23;
+    max-width: 100%;
+    padding: 60px 20px;
+}
+
+
+
+.corpo-fases-integrantes {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 80px;
+    justify-items: center;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 100%;
+    max-width: 260px;
+}
+
+.card {
+    background-color: #211D23;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 360px;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+
+.nome-artista-collabs-sobre {
+    color: #F0EBE3;
+    font-family: 'Gorillaz', truetype;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 8px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

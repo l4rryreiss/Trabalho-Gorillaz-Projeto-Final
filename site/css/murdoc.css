@@ -6,6 +6,8 @@ body
 
 #titulo-hero-integrante-pc-murdoc
     {
+        font-size: 150px;
+        font-family: 'Gorillaz', truetype;
         color: #714B66;
         -webkit-text-stroke: 1px #35452D;
     }
@@ -13,13 +15,14 @@ body
      #borda-murdoc-pc
             {
                 border: 10px solid #714B66;
-                border-radius: 24px;
                 margin-top: 60px;
                 margin-left: 50px ;
             }
 
     #murdoc-titulo-lore
         {
+            font-size: 150px;
+            font-family: 'Gorillaz', truetype;
             color: #211D23;
             -webkit-text-stroke: 1px #35452D;
             text-align: center;
@@ -79,3 +82,54 @@ body
             {
                 text-align: center;
             }
+            
+  
+
+#titulo-murdoc-curiosidades-integrante,
+#titulo-murdoc-relacionamentos-integrante {
+    font-family: 'Gorillaz', truetype;
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#titulo-murdoc-fases-integrante {
+    font-family: 'Gorillaz', truetype;
+    font-size: 128px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#titulo-murdoc-curiosidades-integrante,
+#titulo-murdoc-relacionamentos-integrante {
+    color: #35452D;
+    -webkit-text-stroke: 1.5px #714B66;
+}
+
+.murdoc-pos-curiosidades{
+    width: 100%;
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;    
+  object-position: right top;
+}
+#murdoc-2d {
+    background-color: #EC5D74;
+    border-color: #714B66;
+}
+
+#murdoc-russel {
+    background-color: #FD651B;
+    border-color: #714B66;
+}
+
+#murdoc-noodle {
+    background-color: #35452D;
+    border-color: #714B66;
+}
+
+#titulo-murdoc-fases-integrante {
+    color: #211D23;
+    -webkit-text-stroke: 1.5px #714B66;
+    max-width: 500px;
+    margin: 0 auto 45px;
+}

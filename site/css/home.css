@@ -19,6 +19,8 @@
 
     #sobre-gorillaz-home-titulo
         {
+            font-size: 130px;
+            font-family: 'Gorillaz', truetype;
             text-align: center;
             color: #35452D;
             -webkit-text-stroke: 5px #211D23;
@@ -43,6 +45,7 @@
 
     .botao-de-atalho-body
         {
+
            font-size: 36px;
            align-items: center;
            text-transform: lowercase;
@@ -80,6 +83,8 @@
 
                 .discografia-gorillaz-home-titulo
                     {
+                        font-size: 130px;
+                        font-family: 'Gorillaz', truetype;
                         text-align: center;
                             color: #FD651B;
                             -webkit-text-stroke: 5px #35452D;
@@ -165,6 +170,8 @@
                 }
 
                 #titulo {
+                    font-family: 'Gorillaz', truetype;
+                    font-size: 96px;
                     text-align: center;
                     margin-bottom: 20px;
                     color: #35452D;
@@ -177,18 +184,80 @@
 
 /* Integrantes */
 
-.integrantes
-    {
-        background-color: #211D23;
-        padding: 100px;
-    }
+.integrantes {
+  background-color: #211D23;
+  padding: 100px 40px;
+}
 
-    #integrantes-gorillaz-home-titulo
-        {
-            text-align: center;
-            color: #F0EBE3;
-            -webkit-text-stroke: 5px #EC5D74;
-        }
+#integrantes-gorillaz-home-titulo {
+  font-size: 150px;
+  font-family: 'Gorillaz', sans-serif;
+  text-align: center;
+  color: #F0EBE3;
+  -webkit-text-stroke: 5px #EC5D74;
+  margin-bottom: 50px;
+}
+
+.banners-pc {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.banner-card {
+  position: relative;
+  width: 100%;
+  height: 210px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 5px solid #fff;
+      transition: transform 0.25s ease;
+}
+
+.banner-card:hover {
+  transform: scale(1.015);
+}
+
+.banner-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+    object-position: center 25%;
+}
+
+.banner-card h3 {
+  position: absolute;
+  left: 20px;
+  bottom: 14px;
+  margin: 0;
+  font-family: 'Gorillaz', sans-serif;
+  font-size: 52px;
+  color: #F0EBE3;
+  line-height: 1;
+  -webkit-text-stroke: 2px #161318;
+  paint-order: stroke fill;
+  text-shadow: 3px 3px 0px #161318;
+}
+
+.murdoc-home-pc {
+  border-color: #5E3A5A;
+}
+
+.d2-home-pc {
+  border-color: #E85D75;
+}
+
+.russel-home-pc {
+  border-color: #F06A1B;
+}
+
+.noodle-home-pc {
+
+  border-color: #465432;
+}
 
 /* Historia */
 
@@ -201,8 +270,11 @@
 
     #conheca-a-historia-gorillaz-home-titulo
     {
+        font-size: 150px;
+        font-family: 'Gorillaz', truetype;
         color: #211D23;
         -webkit-text-stroke: 5px #35452D;
+        font-family: 'Gorillaz', truetype;
          text-align: center;
             margin-top: -50px;
             margin-left: 10px;

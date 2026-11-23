@@ -1,0 +1,134 @@
+body {
+    background-color: #35452D;
+}
+
+#noodle-hero {
+    gap: 20px;
+}
+
+
+
+#titulo-hero-integrante-pc-noodle {
+    font-size: 130px;
+    font-family: 'Gorillaz', truetype;
+    color: #211D23;
+    -webkit-text-stroke: 10px #35452D;
+    paint-order: stroke fill;
+}
+
+
+#noodle {
+    border: 10px solid #35452D;
+    padding: 14px 18px;
+    margin: 25px 0 0 0;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+#noodle-titulo-lore {
+    font-size: 140px;
+    font-family: 'Gorillaz', truetype;
+    color: #211D23;
+    -webkit-text-stroke: 10px #FD651B;
+    paint-order: stroke fill;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#noodle-corpo-lore {
+    border: 10px solid #FD651B;
+    margin: 0 auto 60px;
+    max-width: 920px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+#noodle-corpo-lore p {
+    margin-bottom: 24px;
+}
+
+#noodle-crianca {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin: 0 24px 16px 0;
+    border: 5px solid #35452D;
+}
+
+#caixa-noodle {
+    float: right;
+    width: 240px;
+    height: auto;
+    margin: 8px 0 16px 24px;
+    border: 5px solid #35452D;
+}
+
+#noodle-dentro-caixa {
+    display: block;
+    width: 560px;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    border: 5px solid #35452D;
+}
+
+.banner-noodle-historia {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    display: block;
+    margin-top: 25px;
+    border: 5px solid #35452D;
+}
+
+#titulo-Noodle-curiosidades-integrante,
+#titulo-Noodle-relacionamentos-integrante {
+    font-family: 'Gorillaz', truetype;
+    font-size: 140px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: #35452D;
+    -webkit-text-stroke: 10px #FD651B;
+    paint-order: stroke fill;
+    line-height: 1;
+}
+#titulo-Noodle-relacionamentos-integrante{
+    padding-bottom: 40px;
+}
+.noodle-pos-curiosidades {
+    width: 100%;
+    height: 350px;  
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+#noodle-murdoc {
+    background-color: #714B66;
+    border-color: #35452D;
+}
+
+#noodle-2d {
+    background-color: #EC5D74;
+    border-color: #35452D;
+}
+
+#noodle-russel {
+    background-color: #FD651B;
+    border-color: #35452D;
+}
+
+
+
+#titulo-Noodle-fases-integrante {
+    font-family: 'Gorillaz', truetype;
+    font-size: 120px;
+    text-align: center;
+    color: #211D23;
+    -webkit-text-stroke: 10px #35452D;
+    paint-order: stroke fill;
+    max-width: 550px;
+    margin: 0 auto 45px;
+    line-height: 1.05;
+}

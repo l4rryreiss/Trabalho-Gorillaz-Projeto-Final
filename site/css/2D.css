@@ -1,0 +1,171 @@
+body {
+    background-color: #EC5D74;
+}
+
+#d-hero {
+    gap: 20px;
+}
+
+.hero-conteudo-2d {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#titulo-hero-integrante-2d {
+    font-size: 110px;
+    font-family: 'Gorillaz', truetype;
+    color: #211D23;
+    -webkit-text-stroke: 10px #EC5D74;
+    paint-order: stroke fill;
+    text-align: center;
+}
+
+
+
+.caixa-descricao-2d {
+    border: 10px solid #EC5D74;
+    margin-top: 25px;
+    padding: 8px 16px;
+}
+
+
+
+#d-titulo-lore {
+    font-size: 130px;
+    font-family: 'Gorillaz', truetype;
+    color: #211D23;
+    -webkit-text-stroke: 10px #714B66;
+    paint-order: stroke fill;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#d-corpo-lore {
+    border: 10px solid #714B66;
+    background-color: #211D23;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    max-width: 920px;
+    padding: 45px 50px;
+    font-size: 18px;
+    line-height: 1.65;
+}
+
+.divisao-2d {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+#d-perfil {
+    width: 240px;
+    height: auto;
+}
+
+#d-texto-lore {
+    margin: 0;
+    font-size: 24px;
+}
+
+.paragrafo-lore-2d {
+    margin-bottom: 25px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.img-borda-destaque {
+    border: 5px solid #EC5D74;
+    display: block;
+    margin: 25px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#d-criança {
+    width: 560px;
+}
+
+.storyboards-2d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.storyboards-2d img {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.divisao-paula-2d {
+    align-items: center;
+    margin-top: 25px;
+}
+
+#d-e-paula-2d {
+    width: 270px;
+    margin: 0;
+}
+
+.banner-2d-historia {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.fundo-curiosidades-relacionamento {
+    background-color: #211D23;
+}
+
+#titulo-2d-curiosidades-integrante,
+#titulo-2d-relacionamentos-integrante {
+    font-family: 'Gorillaz', truetype;
+    font-size: 130px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: #714B66;
+    -webkit-text-stroke: 10px #EC5D74;
+    paint-order: stroke fill;
+}
+
+.d-pos-curiosidades {
+    width: 100%;
+    height: 350px;
+    display: block;
+    margin: 20px auto 30px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#d-murdoc {
+    background-color: #714B66;
+    border-color: #EC5D74;
+}
+
+#d-russel {
+    background-color: #FD651B;
+    border-color: #EC5D74;
+}
+
+#d-noodle {
+    background-color: #35452D;
+    border-color: #EC5D74;
+}
+
+#titulo-2d-fases-integrante {
+    font-family: 'Gorillaz', truetype;
+    font-size: 115px;
+    text-align: center;
+    color: #211D23;
+    -webkit-text-stroke: 10px #EC5D74;
+    paint-order: stroke fill;
+    max-width: 550px;
+    margin: 0 auto 45px;
+}   
