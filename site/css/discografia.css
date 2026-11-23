@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Gorillaz';
+    src: url('../assets/fonte/gorillaz_1.ttf') format('truetype');
+}
+/*h1 {
+    font-family: 'Gorillaz', truetype;
+} (você coloca isso na section que vai ter a fonte*/ 
